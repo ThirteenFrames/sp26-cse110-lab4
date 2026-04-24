@@ -1,0 +1,2 @@
+1. The bug was in reading the values of num1 and num2. By default, strings are returned, and the program didn't convert these strings into numbers. Therefore, string concatenation was being performed instead of addition. 
+2. To fix this, we can forcibly convert the string values read into num1 and num2 into numbers with the function Number(). 
